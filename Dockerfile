@@ -4,6 +4,7 @@ WORKDIR /app
 COPY . .
 
 RUN yarn install
-ENV IS_DOCKERIZED=true
+
+ENV ENV="production"
 
 CMD node .
