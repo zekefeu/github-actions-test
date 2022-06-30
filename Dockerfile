@@ -6,4 +6,4 @@ COPY . .
 RUN yarn install
 ENV IS_DOCKERIZED=true
 
-CMD npm start
+CMD node .
