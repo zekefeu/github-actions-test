@@ -1,13 +1,12 @@
-name: Testing
+name: CI
 
 on:
   pull_request:
     branches: [ "main" ]
 
 jobs:
-  test:
+  Testing:
     runs-on: ubuntu-latest
-    
 
     steps:
       - uses: actions/checkout@v3
