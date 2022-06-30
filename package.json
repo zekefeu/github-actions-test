@@ -6,7 +6,8 @@
   "author": "fuka <fuka_main@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^28.1.2"
+    "jest": "^28.1.2",
+    "ts-node": "^10.8.1"
   },
   "scripts": {
     "test": "jest"
